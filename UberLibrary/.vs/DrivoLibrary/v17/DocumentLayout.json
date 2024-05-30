@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KProject\\DrivoLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\dl\\dbdl\\tripcruddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dl\\dbdl\\tripcruddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\utility\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\utility\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\dlinterfaces\\iridercrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dlinterfaces\\iridercrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\dlinterfaces\\itripcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dlinterfaces\\itripcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\dlinterfaces\\iratingcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dlinterfaces\\iratingcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|d:\\kproject\\drivolibrary\\drivolibrary\\dlinterfaces\\idrivercrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dlinterfaces\\idrivercrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\dl\\dbdl\\ridercruddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dl\\dbdl\\ridercruddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\dl\\dbdl\\ratingcruddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dl\\dbdl\\ratingcruddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\dl\\dbdl\\functionsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dl\\dbdl\\functionsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\dl\\dbdl\\drivercruddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\dl\\dbdl\\drivercruddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\bl\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\bl\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\bl\\rider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\bl\\rider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\bl\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\bl\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\bl\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\bl\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|D:\\KProject\\DrivoLibrary\\drivolibrary\\bl\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C12BCF26-E952-43F4-832D-3C83E7F6D220}|DrivoLibrary\\DrivoLibrary.csproj|solutionrelative:drivolibrary\\bl\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RatingCrudDB.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\RatingCrudDB.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DL\\DBDL\\RatingCrudDB.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\RatingCrudDB.cs",
+              "RelativeToolTip": "DrivoLibrary\\DL\\DBDL\\RatingCrudDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:27.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RiderCrudDB.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\RiderCrudDB.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DL\\DBDL\\RiderCrudDB.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\RiderCrudDB.cs",
+              "RelativeToolTip": "DrivoLibrary\\DL\\DBDL\\RiderCrudDB.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAABgvQoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:28.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TripCrudDB.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\TripCrudDB.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DL\\DBDL\\TripCrudDB.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\TripCrudDB.cs",
+              "RelativeToolTip": "DrivoLibrary\\DL\\DBDL\\TripCrudDB.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:28.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDriverCrud.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DLInterfaces\\IDriverCrud.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DLInterfaces\\IDriverCrud.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DLInterfaces\\IDriverCrud.cs",
+              "RelativeToolTip": "DrivoLibrary\\DLInterfaces\\IDriverCrud.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:28.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRatingCrud.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DLInterfaces\\IRatingCrud.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DLInterfaces\\IRatingCrud.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DLInterfaces\\IRatingCrud.cs",
+              "RelativeToolTip": "DrivoLibrary\\DLInterfaces\\IRatingCrud.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:28.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITripCrud.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DLInterfaces\\ITripCrud.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DLInterfaces\\ITripCrud.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DLInterfaces\\ITripCrud.cs",
+              "RelativeToolTip": "DrivoLibrary\\DLInterfaces\\ITripCrud.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:28.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRiderCrud.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DLInterfaces\\IRiderCrud.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DLInterfaces\\IRiderCrud.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DLInterfaces\\IRiderCrud.cs",
+              "RelativeToolTip": "DrivoLibrary\\DLInterfaces\\IRiderCrud.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:28.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\Utility\\Utils.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\Utility\\Utils.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\Utility\\Utils.cs",
+              "RelativeToolTip": "DrivoLibrary\\Utility\\Utils.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:28.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FunctionsDB.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\FunctionsDB.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DL\\DBDL\\FunctionsDB.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\FunctionsDB.cs",
+              "RelativeToolTip": "DrivoLibrary\\DL\\DBDL\\FunctionsDB.cs",
+              "ViewState": "AQIAAAkAAABAZ2ZmZqYwwAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:27.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DriverCrudDB.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\DriverCrudDB.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\DL\\DBDL\\DriverCrudDB.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\DL\\DBDL\\DriverCrudDB.cs",
+              "RelativeToolTip": "DrivoLibrary\\DL\\DBDL\\DriverCrudDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:27.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Trip.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\BL\\Trip.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Trip.cs",
+              "RelativeToolTip": "DrivoLibrary\\BL\\Trip.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:27.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Rider.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Rider.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\BL\\Rider.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Rider.cs",
+              "RelativeToolTip": "DrivoLibrary\\BL\\Rider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:27.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Rating.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\BL\\Rating.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Rating.cs",
+              "RelativeToolTip": "DrivoLibrary\\BL\\Rating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:27.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Person.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\BL\\Person.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Person.cs",
+              "RelativeToolTip": "DrivoLibrary\\BL\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:27.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Driver.cs",
+              "DocumentMoniker": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Driver.cs",
+              "RelativeDocumentMoniker": "DrivoLibrary\\BL\\Driver.cs",
+              "ToolTip": "D:\\KProject\\DrivoLibrary\\DrivoLibrary\\BL\\Driver.cs",
+              "RelativeToolTip": "DrivoLibrary\\BL\\Driver.cs",
+              "ViewState": "AQIAAAIAAAAAMzMzMzMbwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:59:27.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22C5ECA6-27B1-4D79-9A0D-B78DDECB2EAB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UberNew</RootNamespace>
+    <AssemblyName>UberNew</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DrivoLibrary">
+      <HintPath>..\..\..\Users\HC\Downloads\DrivoLibraryCopy\DrivoLibrary\DrivoLibrary\bin\Debug\DrivoLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AdminUI\AdminHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminUI\AdminHomePage.Designer.cs">
+      <DependentUpon>AdminHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AdminUI\AdminMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminUI\AdminMainPage.Designer.cs">
+      <DependentUpon>AdminMainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AdminUI\EnterRiderId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminUI\EnterRiderId.Designer.cs">
+      <DependentUpon>EnterRiderId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AdminUI\PendingDrivers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminUI\PendingDrivers.Designer.cs">
+      <DependentUpon>PendingDrivers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AdminUI\ViewAllDrivers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminUI\ViewAllDrivers.Designer.cs">
+      <DependentUpon>ViewAllDrivers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AdminUI\ViewAllRiders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AdminUI\ViewAllRiders.Designer.cs">
+      <DependentUpon>ViewAllRiders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\AcceptRide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\AcceptRide.Designer.cs">
+      <DependentUpon>AcceptRide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\ActiveRideDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\ActiveRideDriver.Designer.cs">
+      <DependentUpon>ActiveRideDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\EditInfoDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\EditInfoDriver.Designer.cs">
+      <DependentUpon>EditInfoDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ObjectHandler.cs" />
+    <Compile Include="UI\RiderUI\ActiveRide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\ActiveRide.Designer.cs">
+      <DependentUpon>ActiveRide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\BookRide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\BookRide.Designer.cs">
+      <DependentUpon>BookRide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverHomePage.Designer.cs">
+      <DependentUpon>DriverHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverSignIn.Designer.cs">
+      <DependentUpon>DriverSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverRegistration.Designer.cs">
+      <DependentUpon>DriverRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverWaitingPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\DriverWaitingPage.Designer.cs">
+      <DependentUpon>DriverWaitingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\Notification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\Notification.Designer.cs">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\RidePending.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\RidePending.Designer.cs">
+      <DependentUpon>RidePending.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderEditInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderEditInfo.Designer.cs">
+      <DependentUpon>RiderEditInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderHomePage.Designer.cs">
+      <DependentUpon>RiderHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderNotifications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderNotifications.Designer.cs">
+      <DependentUpon>RiderNotifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderRideHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderRideHistory.Designer.cs">
+      <DependentUpon>RiderRideHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderSignIn.Designer.cs">
+      <DependentUpon>RiderSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderSignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\RiderSignUp.Designer.cs">
+      <DependentUpon>RiderSignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DriverUI\ViewRides.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DriverUI\ViewRides.Designer.cs">
+      <DependentUpon>ViewRides.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\TakeRiderEmail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\TakeRiderEmail.Designer.cs">
+      <DependentUpon>TakeRiderEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\RiderUI\TakeRiderPassword.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\RiderUI\TakeRiderPassword.Designer.cs">
+      <DependentUpon>TakeRiderPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\Validations.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UI\AdminUI\AdminHomePage.resx">
+      <DependentUpon>AdminHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AdminUI\AdminMainPage.resx">
+      <DependentUpon>AdminMainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AdminUI\EnterRiderId.resx">
+      <DependentUpon>EnterRiderId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AdminUI\PendingDrivers.resx">
+      <DependentUpon>PendingDrivers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AdminUI\ViewAllDrivers.resx">
+      <DependentUpon>ViewAllDrivers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AdminUI\ViewAllRiders.resx">
+      <DependentUpon>ViewAllRiders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\AcceptRide.resx">
+      <DependentUpon>AcceptRide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\ActiveRideDriver.resx">
+      <DependentUpon>ActiveRideDriver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\EditInfoDriver.resx">
+      <DependentUpon>EditInfoDriver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\ActiveRide.resx">
+      <DependentUpon>ActiveRide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\BookRide.resx">
+      <DependentUpon>BookRide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\DriverHomePage.resx">
+      <DependentUpon>DriverHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\DriverSignIn.resx">
+      <DependentUpon>DriverSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\DriverRegistration.resx">
+      <DependentUpon>DriverRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\DriverWaitingPage.resx">
+      <DependentUpon>DriverWaitingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\Notification.resx">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\RidePending.resx">
+      <DependentUpon>RidePending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\RiderEditInfo.resx">
+      <DependentUpon>RiderEditInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\RiderHomePage.resx">
+      <DependentUpon>RiderHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\RiderNotifications.resx">
+      <DependentUpon>RiderNotifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\RiderRideHistory.resx">
+      <DependentUpon>RiderRideHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\RiderSignIn.resx">
+      <DependentUpon>RiderSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\RiderSignUp.resx">
+      <DependentUpon>RiderSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DriverUI\ViewRides.resx">
+      <DependentUpon>ViewRides.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\TakeRiderEmail.resx">
+      <DependentUpon>TakeRiderEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\RiderUI\TakeRiderPassword.resx">
+      <DependentUpon>TakeRiderPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram-logo-E0067A1403-seeklogo.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-icon-thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toyota-ae86-car-anime.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toyota-ae86-car-anime1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49624_bookmark_favorite_full_rating_star_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riderpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caruber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girlinuber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uber-redesign-russellwarwick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8723188_bell_notification_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5173002_alarm_alert_bell_internet_notice_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\211904_social_github_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4470662_app_back_mobile_ui_ux_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4470662_app_back_mobile_ui_ux_icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\352020_arrow_back_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\error_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image2.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
